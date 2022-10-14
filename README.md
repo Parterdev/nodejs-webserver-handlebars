@@ -19,7 +19,22 @@ Options:
   - The handlebars template lives in the views folder.
   - To install dependencies, run: $ npm install || $ yarn install
   - To watch js files changes, run: $ npm app.js -w || $ nodemon app.js 
-  - To initialize app (from backend side), run: $ npm start
+```
+
+<div style="display:flex; justify-content: center; align-items:center">
+  <div style="flex: 50%; padding: 10px; height:100%; align: center; background-color: #aaa">
+    <a href="https://reactjs.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="nodejs" width="40" height="40"/> </a>
+  </div>
+  <div style="flex: 50%; padding: 10px; height:100%; background-color: #bbb">
+  <a href="https://angular.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/angular/angular-icon.svg" alt="nodejs" width="40" height="40"/> </a>  
+  </div>
+</div>
+
+```
+To test different flavors of running app.js
+  - To initialize app (from backend side with handlebars), run: $ npm start
+  - To initialize app (with React front), run: $ node app-react.js -w
+  - To initialize app (with Angular front), run: $ node app-angular.js -w
 ```
 
 ## 2. Notice
